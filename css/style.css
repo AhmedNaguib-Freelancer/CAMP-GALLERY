@@ -79,8 +79,8 @@ body{
 }
 @media (max-width: 991px){
 	.nav ul li a{
-		position: relative;
-		display: inline-block;
+	    position: relative;
+	    display: inline-block;
 	    text-align: center;
 	    left: 10%
 	    right:10%;
@@ -105,7 +105,7 @@ body{
     font-family:monospace; 
     font-size: 123px;
     margin-top: 149px;
-    margin-bottom: 125PX;
+    margin-bottom: 29PX;
     text-align: center;
     display: block;
     text-shadow: 0 0 20px black;
