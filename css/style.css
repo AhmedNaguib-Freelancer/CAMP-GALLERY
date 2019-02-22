@@ -1,4 +1,4 @@
-﻿html{
+html{
 	padding: 0;
 	margin:0;
 	width: 100%;
@@ -47,16 +47,65 @@ body{
     display: block;
     
 }
+@media (max-width: 1024px){
+  .nav{
+    left: 21%;
+  }
+}
 
-@media (max-width: 991px){
+@media (max-width: 800px){
+  .nav{
+    left: 10%;
+  }
+
+@media (max-width: 712px){
 	.nav {
 		position: relative;
 		right: 10%;
 		left: 10%;
-	    text-align: center;
-	    display: block;
+	  text-align: center;
+	  display: block;
 	    
 	}
+}
+@media (max-width: 640px){
+  .nav{
+    left: 4%;
+  }
+}
+@media (max-width: 600px){
+  .nav{
+    left: 0%;
+  }
+}
+@media (max-width: 414px){
+  .nav{
+    left: 12%;
+  }
+}
+@media (max-width: 384px){
+  .nav{
+    left: 8%;
+  }
+}
+@media (max-width: 375px){
+  .nav{
+    left: 8%;
+  }
+}
+
+@media (max-width: 360px){
+  .nav{
+    left: 5%;
+  }
+}
+@media (max-width: 320px){
+  .nav{
+    left: 0%;
+  }
+}
+
+
 }
 
 .nav ul{
@@ -79,8 +128,8 @@ body{
 }
 @media (max-width: 991px){
 	.nav ul li a{
-	    position: relative;
-	    display: inline-block;
+		position: relative;
+		display: inline-block;
 	    text-align: center;
 	    left: 10%
 	    right:10%;
@@ -96,19 +145,22 @@ body{
     text-align: center;
 }
 
-.header i{
-	display: block;
-	width: 0em;
-}
+
 .header h1 {
     position: relative;
     font-family:monospace; 
     font-size: 123px;
     margin-top: 149px;
-    margin-bottom: 29PX;
+    margin-bottom: 125PX;
     text-align: center;
     display: block;
     text-shadow: 0 0 20px black;
+}
+
+@media (max-width: 991px){
+  .header h1{
+    font-size: 70px;
+  }
 }
 .nav img{
 	padding-top: -300px;
@@ -117,6 +169,7 @@ body{
 
 .header h1 span {
     color: #e9cd8c;
+    margin-top: -20px;
 }
 
 .header .download{
